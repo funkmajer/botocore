@@ -28510,11 +28510,6 @@
           "documentation":"<p>The description for the version.</p>",
           "locationName":"versionDescription"
         },
-        "VolumesCompatibleAvailabilityZones":{
-          "shape":"VolumesCompatibleAvailabilityZoneSet",
-          "documentation":"<p>Availability Zones that are compatible with version according to volume types.</p>",
-          "locationName":"volumesCompatibleAvailabilityZoneSet"
-        },
         "CreateTime":{
           "shape":"DateTime",
           "documentation":"<p>The time the version was created.</p>",
@@ -44211,13 +44206,6 @@
     "VpnTunnelOptionsSpecificationsList":{
       "type":"list",
       "member":{"shape":"VpnTunnelOptionsSpecification"}
-    },
-    "VolumesCompatibleAvailabilityZoneSet":{
-      "type":"list",
-      "member":{
-        "shape":"String",
-        "locationName":"item"
-      }
     },
     "WithdrawByoipCidrRequest":{
       "type":"structure",
